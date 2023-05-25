@@ -169,7 +169,7 @@ func selectionSortingRecursive(array: inout [Int], i: Int, n: Int, isAccendingor
 //print(array3)
 
 
-func selectionSort(array: inout [Int], isAccendingorder: Bool) {
+func inseartionSort(array: inout [Int], isAccendingorder: Bool) {
     let n = array.count
     for i in 0..<n {
         let currVal = array[i]
@@ -182,14 +182,16 @@ func selectionSort(array: inout [Int], isAccendingorder: Bool) {
     }
 }
 
-//var array = [2,1,0]
-//selectionSorting(array: &array, isAccendingorder: true)
-//print(array)
-//
-//
-//selectionSorting(array: &array, isAccendingorder: false)
-//print(array)
-//
+var array = [2,1,0]
+inseartionSort(array: &array, isAccendingorder: true)
+print(array)
+
+
+inseartionSort(array: &array, isAccendingorder: false)
+print(array)
+
+
+
 
 
 //0,1,2 or dutch flag proble
@@ -253,6 +255,9 @@ func dutchFlagProblemOptimized(array: inout [Int]) {
         }
     }
 }
-var array = [1, 2, 0, 0, 2, 1, 1, 1, 0, 0, 2, 2, 0]
-dutchFlagProblem(array: &array)
-print(array)
+//var array = [1, 2, 0, 0, 2, 1, 1, 1, 0, 0, 2, 2, 0]
+//dutchFlagProblem(array: &array)
+//print(array)
+//
+//
+//
