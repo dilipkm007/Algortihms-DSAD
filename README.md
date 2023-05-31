@@ -11,3 +11,6 @@ So for solving DSA problem here are some trics or we say Strategies
     1. Bubble sort: a. Using Nested for loops b. We optimized nested for loops using a variable 
     2. Selection Sort: Using Nested for loops
     3. Insertion Sort: Using Nested for and while loops
+2. Decrease And Conquer Approch: Finding the solution to given problem via its one sub-problem solution. Mostly use recursive algorithms until the problem become small enough to solve.
+    1. Euclid Algorithm to finding GCD
+    
