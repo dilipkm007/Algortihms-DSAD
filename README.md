@@ -15,9 +15,8 @@ So for solving DSA problem here are some trics or we say Strategies
     1. Euclid Algorithm to finding GCD
     
 
-3. Two Pointers Approch
-    The two pointer approch help us optimize time and space complexity in case of many searching problem on Array and Linkedlist.
-    a. Pointer moving in the same direction with same pace 
+3. Two Pointers Approch: The two pointer approch help us optimize time and space complexity in case of many searching problem on Array and Linkedlist.
+     a. Pointer moving in the same direction with same pace 
         1. Merging Two sorted array
         2. Intersection of two arrays
         3. Checking array is subset of another array
